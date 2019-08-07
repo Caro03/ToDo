@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+.bg-foto {
+    background-image: url(https://www.jotform.com/blog/wp-content/uploads/2018/08/to-do-list-compressor.jpg);
+    background-size: cover;
+}
+
+.bg-register {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    background-color: #07B4B7;
+    opacity: 0.8;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+}
+
+.bg-login {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    background-color: #07B4B7;
+    opacity: 0.8;
+    border-radius: 20px;
+    height: 350px;
+    width: 500px;
+}
+
+.register {
+    font-size: 50px;
+    font-family: 'montserrat';
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.form__field {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'roboto';
+}
+
+#firstName {
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    padding-left: 15px;
+    font-family: 'roboto';
+    border: none;
+}
+
+#lastName {
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    padding-left: 15px;
+    font-family: 'roboto';
+    border: none;
+}
+
+#email {
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    padding-left: 15px;
+    font-family: 'roboto';
+    border: none;
+}
+
+#password {
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    padding-left: 15px;
+    font-family: 'roboto';
+    border: none;
+}
+
+#password_confirmation {
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    padding-left: 15px;
+    font-family: 'roboto';
+    border: none;
+}
+
+#username {
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    padding-left: 15px;
+    font-family: 'roboto';
+    border: none;
+}
+
+.btn {
+    margin-top: 30px;
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'roboto';
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #0F788E;
+    color: white;
+}
+
+.no-account {
+    color: white;
+    font-family: 'roboto';
+}
