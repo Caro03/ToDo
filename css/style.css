@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+/* styling register & login */
+
 .bg-foto {
     background-image: url(https://www.jotform.com/blog/wp-content/uploads/2018/08/to-do-list-compressor.jpg);
     background-size: cover;
@@ -117,4 +119,58 @@
 .no-account {
     color: white;
     font-family: 'roboto';
+}
+
+/* styling index */
+
+.bg-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #07B4B7;
+    border-radius: 20px;
+    height: 150px;
+    width: 700px;
+}
+
+.h-welkom {
+    padding-top: 20px;
+    font-family: "montserrat";
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.h-text {
+    font-family: "montserrat";
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.bg-index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #07B4B7;
+    border-radius: 20px;
+    height: 150px;
+    width: 700px;
+    margin-top: -50px;
+}
+
+.form__post {
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+#post {
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    font-family: 'roboto';
+    padding-left: 15px;
 }
